@@ -1,10 +1,10 @@
-let color= `yellow`;
+let color= `red`;
 if (color == `red`) {
     console.log (`stop the bus and cars on the road`);
 }
-if (color == `yellow`) {
+else if (color == `yellow`) {
     console.log (`drive the bus and cars slowly`);
 }
-if (color == `green`) {
+else if (color == `green`) {
     console.log (`drive the bus and cars`);
 }
